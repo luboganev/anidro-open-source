@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modules.main.MainActivity"
+    tools:ignore="RtlHardcoded">
+
+    <!-- Main Content -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/canvas_spacing"
+            app:cardCornerRadius="@dimen/canvas_corner_radius"
+            app:cardElevation="@dimen/canvas_elevation">
+
+            <app.anidro.modules.main.views.DrawingView
+                android:id="@+id/drawingView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <app.anidro.modules.main.views.DrawingAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/exportProgressView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="@dimen/keyline_spacing_quarter"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/actionUndo"
+                    android:layout_width="@dimen/action_button_size"
+                    android:layout_height="@dimen/action_button_size"
+                    android:background="@drawable/primary_button_background"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_undo_white_24dp" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/actionDelete"
+                    android:layout_width="@dimen/action_button_size"
+                    android:layout_height="@dimen/action_button_size"
+                    android:layout_marginTop="@dimen/keyline_spacing_half"
+                    android:background="@drawable/primary_button_background"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_delete_white_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_margin="@dimen/keyline_spacing_quarter"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/actionSettings"
+                    android:layout_width="@dimen/action_button_size"
+                    android:layout_height="@dimen/action_button_size"
+                    android:background="@drawable/primary_button_background"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_settings_white_24dp" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/actionSetupBrush"
+                    android:layout_width="@dimen/action_button_size"
+                    android:layout_height="@dimen/action_button_size"
+                    android:layout_marginTop="@dimen/keyline_spacing_half"
+                    android:background="@drawable/primary_button_background"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_brush_white_24dp" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/actionSetupBackground"
+                    android:layout_width="@dimen/action_button_size"
+                    android:layout_height="@dimen/action_button_size"
+                    android:layout_marginTop="@dimen/keyline_spacing_half"
+                    android:background="@drawable/primary_button_background"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_format_paint_white_24dp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/actionBack"
+                android:layout_width="@dimen/action_button_size"
+                android:layout_height="@dimen/action_button_size"
+                android:layout_gravity="top|left"
+                android:layout_margin="@dimen/keyline_spacing_quarter"
+                android:background="@drawable/primary_button_background"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_chevron_left_white_24dp" />
+
+            <LinearLayout
+                android:id="@+id/maxDrawingTimeWarning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_margin="@dimen/keyline_spacing_quarter"
+                android:background="@drawable/rounded_semi_transparent_grey_background"
+                android:padding="4dp">
+
+                <app.anidro.modules.main.views.CustomDrawableProgressBar
+                    android:id="@+id/drawingProgress"
+                    android:layout_width="96dp"
+                    android:layout_height="@dimen/custom_progress_bar_height"
+                    android:layout_gravity="center_vertical" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/drawing_time_warning_label"
+                    android:textColor="@color/dodger_blue"
+                    android:textSize="24dp"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/dimmedBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_20"
+        android:visibility="gone" />
+
+    <app.anidro.modules.main.views.Fab
+        android:id="@+id/fabPlayButton"
+        style="@style/Widget.Anidro.Fab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_play_arrow_white_24dp" />
+
+    <app.anidro.modules.main.views.Fab
+        android:id="@+id/fabShareButton"
+        style="@style/Widget.Anidro.Fab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_share_white_24dp" />
+
+    <app.anidro.modules.main.views.CustomDrawableProgressBar
+        android:id="@+id/exportProgessBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_progress_bar_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/keyline_spacing"
+        android:layout_marginRight="@dimen/keyline_spacing_half"
+        android:layout_marginBottom="@dimen/export_progress_margin_bottom"
+        android:layout_toLeftOf="@+id/fabCancelExport"
+        android:background="@drawable/rounded_semi_transparent_grey_background"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <app.anidro.modules.main.views.Fab
+        android:id="@+id/fabCancelExport"
+        style="@style/Widget.Anidro.Fab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_close_white_24dp" />
+
+    <View
+        android:id="@+id/sharePopupAnchor"
+        android:layout_width="@dimen/share_popup_width"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/share_popup_anchor_spacing_right"
+        android:layout_marginBottom="@dimen/share_popup_anchor_spacing_bottom"
+        android:background="@color/transparent" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">Anidro</string>
+    <string name="ok">OK</string>
+    <string name="fab_share_item_image">Image</string>
+    <string name="fab_share_item_gif">Animation</string>
+    <string name="drawing_time_warning_label" translatable="false">MAX</string>
+    <string name="share_to">Share to</string>
+    <string name="share">Share</string>
+    <string name="export_notification_image_text">Saving as image</string>
+    <string name="export_notification_gif_text">Saving as animation</string>
+    <string name="export_notification_image_done_text">The image was successfully saved</string>
+    <string name="export_notification_gif_done_text">The animation was successfully saved</string>
+    <string name="fab_share_item_video">Video</string>
+    <string name="export_notification_video_text">Saving as video</string>
+    <string name="export_notification_video_done_text">The video was successfully saved</string>
+    <string name="title_activity_about">About Anidro</string>
+    <string name="app_share_subject">Anidro for Android</string>
+    <string name="app_share_text">Start creating animated drawings now with Anidro</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms of Use</string>
+    <string name="accept_terms_dialog_ok">Accept</string>
+    <string name="accept_terms_dialog_cancel">Decline</string>
+    <string name="accept_terms_dialog_text">In order to continue to use Anidro you need to accept the <a href="http://luboganev.github.io/anidro/privacy/">Privacy Policy</a> and the <a href="http://luboganev.github.io/anidro/terms/">Terms of Use</a></string>
+    <string name="about_text">With Anidro you can create simple animated drawings on your device, save them locally and share them.</string>
+    <string name="text_export_failed">The drawing could not be saved ;(</string>
+    <string name="settings_category_misc">Miscellaneous</string>
+    <string name="settings_about_title">About Anidro</string>
+    <string name="setting_copy_to_external_title">Save drawings</string>
+    <string name="setting_copy_to_external_summary">Saves a copy of exported drawings to the gallery</string>
+    <string name="setting_show_export_notification_title">Show notifications</string>
+    <string name="setting_how_export_notificatio_summary">Shows notifications with the exported drawing in the status bar</string>
+    <string name="settings_category_sharing_title">Sharing</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_storage_permission_denied">Anidro cannot save a copy of your drawings to your gallery without access permission.</string>
+    <string name="export_notification_channel_name">Drawing export</string>
+</resources>

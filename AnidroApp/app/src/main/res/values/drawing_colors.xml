@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="drawing_colors">
+        <item>@array/drawing_color_red</item>
+        <item>@array/drawing_color_orange</item>
+        <item>@array/drawing_color_yellow</item>
+        <item>@array/drawing_color_light_green</item>
+        <item>@array/drawing_color_green</item>
+        <item>@array/drawing_color_cyan</item>
+        <item>@array/drawing_color_blue</item>
+        <item>@array/drawing_color_indigo</item>
+        <item>@array/drawing_color_purple</item>
+        <item>@array/drawing_color_pink</item>
+        <item>@array/drawing_color_brown</item>
+        <item>@array/drawing_color_grey</item>
+    </array>
+
+    <array name="drawing_color_grey">
+        <item>#FFFFFFFF</item>
+        <item>#FFE0E0E0</item>
+        <item>#FF9E9E9E</item>
+        <item>#FF616161</item>
+        <item>#FF000000</item>
+    </array>
+
+    <array name="drawing_color_red">
+        <item>#FFFFCDD2</item>
+        <item>#FFE57373</item>
+        <item>#FFF44336</item>
+        <item>#FFD32F2F</item>
+        <item>#FFB71C1C</item>
+    </array>
+
+    <array name="drawing_color_pink">
+        <item>#FFF8BBD0</item>
+        <item>#FFF06292</item>
+        <item>#FFE91E63</item>
+        <item>#FFC2185B</item>
+        <item>#FF880E4F</item>
+    </array>
+
+    <array name="drawing_color_purple">
+        <item>#FFE1BEE7</item>
+        <item>#FFBA68C8</item>
+        <item>#FF9C27B0</item>
+        <item>#FF7B1FA2</item>
+        <item>#FF4A148C</item>
+    </array>
+
+    <array name="drawing_color_indigo">
+        <item>#FFC5CAE9</item>
+        <item>#FF7986CB</item>
+        <item>#FF3F51B5</item>
+        <item>#FF303F9F</item>
+        <item>#FF1A237E</item>
+    </array>
+
+    <array name="drawing_color_blue">
+        <item>#FFBBDEFB</item>
+        <item>#FF64B5F6</item>
+        <item>#FF2196F3</item>
+        <item>#FF1976D2</item>
+        <item>#FF0D47A1</item>
+    </array>
+
+    <array name="drawing_color_cyan">
+        <item>#FFB2EBF2</item>
+        <item>#FF4DD0E1</item>
+        <item>#FF00BCD4</item>
+        <item>#FF0097A7</item>
+        <item>#FF006064</item>
+    </array>
+
+    <array name="drawing_color_green">
+        <item>#FFC8E6C9</item>
+        <item>#FF81C784</item>
+        <item>#FF4CAF50</item>
+        <item>#FF388E3C</item>
+        <item>#FF1B5E20</item>
+    </array>
+
+    <array name="drawing_color_light_green">
+        <item>#FFDCEDC8</item>
+        <item>#FFAED581</item>
+        <item>#FF8BC34A</item>
+        <item>#FF689F38</item>
+        <item>#FF33691E</item>
+    </array>
+
+    <array name="drawing_color_yellow">
+        <item>#FFFFF9C4</item>
+        <item>#FFFFF176</item>
+        <item>#FFFFEB3B</item>
+        <item>#FFFBC02D</item>
+        <item>#FFF57F17</item>
+    </array>
+
+    <array name="drawing_color_orange">
+        <item>#FFFFE0B2</item>
+        <item>#FFFFB74D</item>
+        <item>#FFFF9800</item>
+        <item>#FFF57C00</item>
+        <item>#FFE65100</item>
+    </array>
+
+    <array name="drawing_color_brown">
+        <item>#FFD7CCC8</item>
+        <item>#FFA1887F</item>
+        <item>#FF795548</item>
+        <item>#FF5D4037</item>
+        <item>#FF3E2723</item>
+    </array>
+</resources>

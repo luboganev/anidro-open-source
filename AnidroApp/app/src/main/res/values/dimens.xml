@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyline_spacing">16dp</dimen>
+    <dimen name="keyline_spacing_half">8dp</dimen>
+    <dimen name="keyline_spacing_quarter">4dp</dimen>
+
+    <dimen name="export_progress_margin_bottom">32dp</dimen>
+    <dimen name="action_button_size">40dp</dimen>
+    <dimen name="custom_progress_bar_height">16dp</dimen>
+
+    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="fab_spacing">0dp</dimen>
+
+    <dimen name="canvas_spacing">0dp</dimen>
+    <dimen name="canvas_elevation">4dp</dimen>
+    <dimen name="canvas_corner_radius">4dp</dimen>
+
+    <dimen name="share_popup_anchor_spacing_right">0dp</dimen>
+    <dimen name="share_popup_anchor_spacing_bottom">8dp</dimen>
+
+    <dimen name="share_popup_width">210dp</dimen>
+    <dimen name="share_popup_item_padding">16dp</dimen>
+    <dimen name="share_popup_item_drawable_padding">24dp</dimen>
+
+    <dimen name="brush_setup_dialog_width">320dp</dimen>
+    <dimen name="background_color_dialog_width">320dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_peel">#FF9800</color>
+    <color name="gold_drop">#EF6C00</color>
+
+    <color name="dodger_blue">#651FFF</color>
+    <color name="dodger_blue_dark">#5500CA</color>
+    <color name="red_pink">#E91E63</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="grey_90">#E6E0E0E0</color>
+    <color name="black_20">#33000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_grey">#E0E0E0</color>
+
+    <!--
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+
+</resources>

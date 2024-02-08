@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fab_share_item_image">Bild</string>
+    <string name="fab_share_item_gif">Animation</string>
+    <string name="share_to">Teilen auf</string>
+    <string name="share">Teilen</string>
+    <string name="export_notification_image_done_text">Das Bild wurde erfolgreich gespeichert</string>
+    <string name="export_notification_gif_done_text">Die Animation wurde erfolgreich gespeichert</string>
+    <string name="export_notification_gif_text">Speichern als Animation</string>
+    <string name="export_notification_image_text">Speichern als Bild</string>
+    <string name="fab_share_item_video">Video</string>
+    <string name="export_notification_video_text">Speichern als Video</string>
+    <string name="export_notification_video_done_text">Das Video wurde erfolgreich gespeichert</string>
+    <string name="title_activity_about">Über Anidro</string>
+    <string name="app_share_subject">Anidro für Android</string>
+    <string name="app_share_text">Los mit der Erstellung animierter Zeichnungen mit Anidro!</string>
+    <string name="privacy_policy">Datenschutz</string>
+    <string name="terms_conditions">AGB</string>
+    <string name="accept_terms_dialog_ok">Akzeptieren</string>
+    <string name="accept_terms_dialog_cancel">Ablehnen</string>
+    <string name="accept_terms_dialog_text">Um Anidro weiter zu nutzen müssen Sie den <a href="http://luboganev.github.io/anidro/privacy/">Datenschutz</a> und die <a href="http://luboganev.github.io/anidro/terms/">AGB</a> akzeptieren</string>
+    <string name="about_text">Mit Anidro kannst du einfache animierte Zeichnungen auf deinem Gerät erstellen, lokal speichern und teilen.</string>
+    <string name="text_export_failed">Die Zeichnung konnte nicht gespeichert werden ;(</string>
+    <string name="setting_copy_to_external_summary">Speichert Kopien von den Zeichnungen in dem Alben</string>
+    <string name="setting_copy_to_external_title">Zeichnungen speichern</string>
+    <string name="setting_how_export_notificatio_summary">Zeichnung-Export Benachrichtigungen im Statusbar anzeigen</string>
+    <string name="setting_show_export_notification_title">Benachrichtigungen anzeigen</string>
+    <string name="settings_about_title">Über Anidro</string>
+    <string name="settings_category_sharing_title">Teilen</string>
+    <string name="settings_category_misc">Sonstige</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="settings_storage_permission_denied">Anidro kann keine Kopie von deinen Zeichnungen ohne Berechtigung in deiner Alben anlegen.</string>
+    <string name="ok">OK</string>
+    <string name="export_notification_channel_name">Zeichnung-Exportierung</string>
+</resources>

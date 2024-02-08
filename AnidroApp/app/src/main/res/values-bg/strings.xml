@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="export_notification_gif_done_text">Анимацията бе запазена успешно </string>
+    <string name="export_notification_gif_text">Запазване като анимация</string>
+    <string name="export_notification_image_done_text">Изображението бе запазено успешно</string>
+    <string name="export_notification_image_text">Запазване като изображение</string>
+    <string name="fab_share_item_gif">Анимация</string>
+    <string name="fab_share_item_image">Изображение</string>
+    <string name="share_to">Сподели в</string>
+    <string name="share">Сподели</string>
+    <string name="fab_share_item_video">Видео</string>
+    <string name="export_notification_video_text">Запазване като видео</string>
+    <string name="export_notification_video_done_text">Видеото бе запазено успешно</string>
+    <string name="title_activity_about">Относно Anidro</string>
+    <string name="app_share_subject">Anidro за Android</string>
+    <string name="app_share_text">Започни да създаваш анимирани рисунки с Anidro</string>
+    <string name="privacy_policy">Защина на лични данни</string>
+    <string name="terms_conditions">Общи условия</string>
+    <string name="accept_terms_dialog_ok">Приемам</string>
+    <string name="accept_terms_dialog_cancel">Отказвам</string>
+    <string name="accept_terms_dialog_text">За да продължите да използвате Anidro е необходимо да приемете <a href="http://luboganev.github.io/anidro/privacy/">Политиката за защита на личните данни</a> както и <a href="http://luboganev.github.io/anidro/terms/">Общите условия за ползване</a></string>
+    <string name="about_text">С Anidro можеш да създаваш простички анимирани рисунки на твоето устройство, да ги запазваш и споделяш.</string>
+    <string name="text_export_failed">Рисунката не бе успешно запазена ;(</string>
+    <string name="setting_copy_to_external_summary">Запазва копие на споделените русинки в галерията</string>
+    <string name="setting_copy_to_external_title">Запазване на рисунките</string>
+    <string name="settings_about_title">Относно Anidro</string>
+    <string name="setting_show_export_notification_title">Показвай съобщения</string>
+    <string name="setting_how_export_notificatio_summary">Показва съобщение относно споделяните рисунки в статус лентата</string>
+    <string name="settings_category_misc">Други</string>
+    <string name="settings_category_sharing_title">Споделяне</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="settings_storage_permission_denied">Anidro не може да запази копие на рисунките ти в твоята галерия без позволение за достъп.</string>
+    <string name="ok">OK</string>
+    <string name="export_notification_channel_name">Експортиране на картина</string>
+</resources>

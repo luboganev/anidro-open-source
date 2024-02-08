@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/settings_category_sharing_title">
+        <SwitchPreferenceCompat
+            android:key="copy_to_external"
+            android:title="@string/setting_copy_to_external_title"
+            android:summary="@string/setting_copy_to_external_summary"
+            android:defaultValue="true" />
+        <SwitchPreferenceCompat
+            android:key="show_notifications"
+            android:title="@string/setting_show_export_notification_title"
+            android:summary="@string/setting_how_export_notificatio_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_category_misc">
+        <Preference android:title="@string/settings_about_title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="@string/GRADLE_APPLICATION_ID"
+                android:targetClass="app.anidro.modules.about.AboutActivity"/>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="fab_spacing">24dp</dimen>
+
+    <dimen name="canvas_spacing">8dp</dimen>
+    <dimen name="canvas_elevation">4dp</dimen>
+    <dimen name="canvas_corner_radius">4dp</dimen>
+
+    <dimen name="share_popup_anchor_spacing_right">16dp</dimen>
+    <dimen name="share_popup_anchor_spacing_bottom">16dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Has to be the same as in the DrawingsFileHelper -->
+    <files-path path="drawings/" name="drawings" />
+    <!-- We never write any files to the external storage root, but there is no XML tag for
+     paths returned by calling the getExternalStoragePublicDirectory (String type) -->
+    <external-path path="." name="externalDrawings" />
+</paths>
